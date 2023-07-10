@@ -1,0 +1,35 @@
+.transaction-list {
+  margin: 20px;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.transaction-table th {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.transaction-table__products-name {
+  text-align: left;
+}
+
+.transaction-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transaction-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.transaction-table td:first-child {
+  font-weight: bold;
+}
